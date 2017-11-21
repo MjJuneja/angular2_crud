@@ -1,0 +1,12 @@
+<div class="container">
+  <h3>Edit form</h3>
+  <form>
+    <input type="text" name="id" readonly [(ngModel)]="id" placeholder="id">
+    <br>
+    <input type="text" name="name" [(ngModel)]="name" placeholder="enter your name">
+    <br>
+    <input type="text" name="desc" [(ngModel)]="desc" placeholder="enter description">
+    <br>
+    <button class="btn-primary" (click)="editDetails()">Submit</button>
+  </form>
+</div>
